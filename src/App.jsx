@@ -96,7 +96,7 @@ export default function App() {
       <div className="team-section" ref={teamSectionRef}>
         <h2 className="section-title">Notre Équipe</h2>
         
-        <div className="team-grid cursor-pointer">
+        <div className="team-grid">
           {teamMembers.map((member) => (
             <div 
               key={member.id} 

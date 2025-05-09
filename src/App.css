@@ -185,6 +185,8 @@ body {
   border-radius: 0.75rem;
   padding: 1.5rem;
   transition: all 0.3s;
+  cursor: pointer;
+
 }
 
 .team-card:hover {
@@ -271,6 +273,21 @@ body {
   border-radius: 0.75rem;
   overflow: hidden;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+  .member-image-container {
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 10%;
+    width: 50vw;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 768px) {
